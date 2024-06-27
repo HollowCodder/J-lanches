@@ -2,33 +2,22 @@
 
 body{
     background-color: rgb(3, 3, 3);
+    background-image: url("FUNDO.JPG");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-div.container{
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
-    padding: 30px;
-}
+video{
+    width: 300px;
 
-div.video{
-    width: 100%;
-    padding-top: 56.25%;
-    position: relative;
-}
+    margin-top: 50px;
 
-iframe{
-   width: 100%;
-   height: 100%; 
-   position: absolute;
-   top: 0;
-   left: 0;
-}
-
-p{
-    color: white;
-    font-size: 50px;
-    padding-left: 20px;
+    filter: drop-shadow(0px 0px 20px #94949456);
 }
 
 img{
@@ -40,4 +29,6 @@ img{
     padding-top: 50px;
     margin: auto;
     margin-bottom: 50px;
+
+    filter: drop-shadow(0px 0px 20px #94949456);
 }
